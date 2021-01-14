@@ -1,4 +1,4 @@
-# XRmote
+# XRemote
 
 **Version 1.0.0**
 
