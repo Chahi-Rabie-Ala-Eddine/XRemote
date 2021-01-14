@@ -12,5 +12,5 @@ XRemote is a portable and secure desktop software allowing remote management and
 
 ## License & copyright
 
-© **CHAHI Rabie Ala-Eddine**, **KESKES Yasmine**, **Meziani Yanis** ***Paris Saclay college***.
+© **CHAHI Rabie Ala-Eddine**, **KESKES Yasmine**, **MEZIANI Yanis** at ***Paris Saclay college***.
 
