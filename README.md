@@ -10,7 +10,13 @@
 
 XRemote is a portable and secure desktop software allowing remote management and manipulation of devices 🌐 
 
+## XRemote Client 
+
 ![alt text](https://github.com/Chahi-Rabie-Ala-Eddine/XRemote/blob/main/Utils/XRemoteClientGui.png)
+
+## XRemote Server 
+
+![alt text](https://github.com/Chahi-Rabie-Ala-Eddine/XRemote/blob/main/Utils/XRemoteServerGui.png)
 
 ## License & copyright
 
