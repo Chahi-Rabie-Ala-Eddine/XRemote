@@ -1,0 +1,5 @@
+#ifndef XREMOTEPARSER_H
+#define XREMOTEPARSER_H
+
+
+#endif // XREMOTEPARSER_H
