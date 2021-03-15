@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1233</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Triangular</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>256</width>
+      <height>541</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>560</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(237, 212, 0);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>➕ Upload file</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>671</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>📺 Video Player</string>
+     </attribute>
+     <widget class="QDial" name="dial">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>450</y>
+        <width>41</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSlider" name="horizontalSlider">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>440</y>
+        <width>551</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>440</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>📽️ Webcam</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>🎛️ Audio Player</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>🎙️ Microphone</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>📝 Editor</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>641</width>
+        <height>451</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="saveDocument">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>470</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>🖊️ Save document</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>ℹ️ Infos</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>641</width>
+        <height>451</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>470</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 238, 236);
+background-color: rgb(164, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>🗑️ Delete </string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>560</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(237, 212, 0);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>💾 Download </string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>10</y>
+      <width>256</width>
+      <height>541</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>560</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(22, 25, 102);
+color: rgb(238, 238, 236);</string>
+    </property>
+    <property name="text">
+     <string>📋 Informations </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>560</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(204, 0, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>❌ Delete</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>560</y>
+      <width>671</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logLabel">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>-20</y>
+      <width>261</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SingInUpLabel">
+    <property name="geometry">
+     <rect>
+      <x>156</x>
+      <y>530</y>
+      <width>401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gifLabel">
+    <property name="geometry">
+     <rect>
+      <x>626</x>
+      <y>150</y>
+      <width>701</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1233</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sawasdee</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <widget class="QMenu" name="menuEnsay">
+    <property name="font">
+     <font>
+      <family>Sawasdee</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>Device</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionNewDevice"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete_Device"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="font">
+     <font>
+      <family>Sawasdee</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionWebsite"/>
+    <addaction name="separator"/>
+    <addaction name="actionUser_Manual"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="font">
+     <font>
+      <family>Sawasdee</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="actionLangage"/>
+    <addaction name="separator"/>
+    <addaction name="actionTheme_2"/>
+   </widget>
+   <widget class="QMenu" name="menuAccount">
+    <property name="font">
+     <font>
+      <family>Sawasdee</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>Account</string>
+    </property>
+    <addaction name="actionView_Profile"/>
+    <addaction name="separator"/>
+    <addaction name="actionUpdate_Profile"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete_Profile"/>
+   </widget>
+   <addaction name="menuEnsay"/>
+   <addaction name="menuHelp"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menuAccount"/>
+  </widget>
+  <action name="actionwesh">
+   <property name="text">
+    <string>wesh</string>
+   </property>
+  </action>
+  <action name="actionNewDevice">
+   <property name="text">
+    <string>New Device</string>
+   </property>
+  </action>
+  <action name="actionWebsite">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>XRemote Website</string>
+   </property>
+  </action>
+  <action name="actionUsuer_Manual">
+   <property name="text">
+    <string>Usuer Manual</string>
+   </property>
+  </action>
+  <action name="actionDelete_device">
+   <property name="text">
+    <string>Delete device</string>
+   </property>
+  </action>
+  <action name="actionLangage">
+   <property name="text">
+    <string>Langage</string>
+   </property>
+  </action>
+  <action name="actionTheme">
+   <property name="text">
+    <string>Theme</string>
+   </property>
+  </action>
+  <action name="actionUpdate">
+   <property name="text">
+    <string>Update Account</string>
+   </property>
+  </action>
+  <action name="actionDelete_Account">
+   <property name="text">
+    <string>Delete Account</string>
+   </property>
+  </action>
+  <action name="actionView_Profile">
+   <property name="text">
+    <string>View Profile</string>
+   </property>
+  </action>
+  <action name="actionUpdate_Profile">
+   <property name="text">
+    <string>Update Profile</string>
+   </property>
+  </action>
+  <action name="actionDelete_Profile">
+   <property name="text">
+    <string>Delete Profile</string>
+   </property>
+  </action>
+  <action name="actionDelete_Device">
+   <property name="text">
+    <string>Update Device</string>
+   </property>
+  </action>
+  <action name="actionUser_Manual">
+   <property name="text">
+    <string>User Manual</string>
+   </property>
+  </action>
+  <action name="actionTheme_2">
+   <property name="text">
+    <string>Theme</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>666</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>889</x>
+     <y>520</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
